@@ -1,0 +1,104 @@
+Ultralytics 8.4.115 🚀 Python-3.13.9 torch-2.13.0 CPU (Apple M4)
+WARNING ⚠️ NCNN export does not support end2end models, disabling end2end branch.
+YOLO11n summary (fused): 101 layers, 2,582,347 parameters, 0 gradients, 6.4 GFLOPs
+
+[34m[1mPyTorch:[0m starting from 'runs/detect/yolo_runs/skip_v2/weights/last.pt' with input shape (1, 3, 640, 640) BCHW and output shape(s) (1, 5, 8400) (5.2 MB)
+[31m[1mrequirements:[0m Ultralytics requirement ['ncnn'] not found, attempting AutoUpdate...
+Collecting ncnn
+  Downloading ncnn-1.0.20260526-cp313-cp313-macosx_11_0_arm64.whl.metadata (28 kB)
+Downloading ncnn-1.0.20260526-cp313-cp313-macosx_11_0_arm64.whl (6.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.4/6.4 MB 1.2 MB/s  0:00:05
+Installing collected packages: ncnn
+Successfully installed ncnn-1.0.20260526
+
+[31m[1mrequirements:[0m AutoUpdate success ✅ 23.5s
+WARNING ⚠️ [31m[1mrequirements:[0m [1mRestart runtime or rerun command for updates to take effect[0m
+
+[31m[1mrequirements:[0m Ultralytics requirement ['pnnx==20260526'] not found, attempting AutoUpdate...
+Collecting pnnx==20260526
+  Downloading pnnx-20260526-py3-none-macosx_10_9_universal2.macosx_10_9_x86_64.macosx_11_0_arm64.whl.metadata (6.2 kB)
+Requirement already satisfied: torch in ./yolo-venv/lib/python3.13/site-packages (from pnnx==20260526) (2.13.0)
+Requirement already satisfied: filelock in ./yolo-venv/lib/python3.13/site-packages (from torch->pnnx==20260526) (3.32.2)
+Requirement already satisfied: typing-extensions>=4.10.0 in ./yolo-venv/lib/python3.13/site-packages (from torch->pnnx==20260526) (4.12.2)
+Requirement already satisfied: setuptools>=77.0.3 in ./yolo-venv/lib/python3.13/site-packages (from torch->pnnx==20260526) (81.0.0)
+Requirement already satisfied: sympy>=1.13.3 in ./yolo-venv/lib/python3.13/site-packages (from torch->pnnx==20260526) (1.14.0)
+Requirement already satisfied: networkx>=2.5.1 in ./yolo-venv/lib/python3.13/site-packages (from torch->pnnx==20260526) (3.6.1)
+Requirement already satisfied: jinja2 in ./yolo-venv/lib/python3.13/site-packages (from torch->pnnx==20260526) (3.1.6)
+Requirement already satisfied: fsspec>=0.8.5 in ./yolo-venv/lib/python3.13/site-packages (from torch->pnnx==20260526) (2026.7.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./yolo-venv/lib/python3.13/site-packages (from sympy>=1.13.3->torch->pnnx==20260526) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in ./yolo-venv/lib/python3.13/site-packages (from jinja2->torch->pnnx==20260526) (3.0.3)
+Downloading pnnx-20260526-py3-none-macosx_10_9_universal2.macosx_10_9_x86_64.macosx_11_0_arm64.whl (54.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.4/54.4 MB 20.9 MB/s  0:00:02
+Installing collected packages: pnnx
+Successfully installed pnnx-20260526
+
+[31m[1mrequirements:[0m AutoUpdate success ✅ 20.4s
+WARNING ⚠️ [31m[1mrequirements:[0m [1mRestart runtime or rerun command for updates to take effect[0m
+
+
+[34m[1mNCNN:[0m starting export with NCNN 1.0.20260526 and PNNX 20260526...
+pnnxparam = runs/detect/yolo_runs/skip_v2/weights/last_ncnn_model/model.pnnx.param
+pnnxbin = runs/detect/yolo_runs/skip_v2/weights/last_ncnn_model/model.pnnx.bin
+pnnxpy = runs/detect/yolo_runs/skip_v2/weights/last_ncnn_model/model_pnnx.py
+pnnxonnx = runs/detect/yolo_runs/skip_v2/weights/last_ncnn_model/model.pnnx.onnx
+ncnnparam = runs/detect/yolo_runs/skip_v2/weights/last_ncnn_model/model.ncnn.param
+ncnnbin = runs/detect/yolo_runs/skip_v2/weights/last_ncnn_model/model.ncnn.bin
+ncnnpy = runs/detect/yolo_runs/skip_v2/weights/last_ncnn_model/model_ncnn.py
+fp16 = 0
+optlevel = 2
+device = cpu
+inputshape = [1,3,640,640]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,640,640]f32
+############# pass_level0
+inline module = torch.nn.modules.linear.Identity
+inline module = ultralytics.nn.modules.block.Attention
+inline module = ultralytics.nn.modules.block.Bottleneck
+inline module = ultralytics.nn.modules.block.C2PSA
+inline module = ultralytics.nn.modules.block.C3k
+inline module = ultralytics.nn.modules.block.C3k2
+inline module = ultralytics.nn.modules.block.DFL
+inline module = ultralytics.nn.modules.block.PSABlock
+inline module = ultralytics.nn.modules.block.SPPF
+inline module = ultralytics.nn.modules.conv.Concat
+inline module = ultralytics.nn.modules.conv.Conv
+inline module = ultralytics.nn.modules.conv.DWConv
+inline module = ultralytics.nn.modules.head.Detect
+inline module = torch.nn.modules.linear.Identity
+inline module = ultralytics.nn.modules.block.Attention
+inline module = ultralytics.nn.modules.block.Bottleneck
+inline module = ultralytics.nn.modules.block.C2PSA
+inline module = ultralytics.nn.modules.block.C3k
+inline module = ultralytics.nn.modules.block.C3k2
+inline module = ultralytics.nn.modules.block.DFL
+inline module = ultralytics.nn.modules.block.PSABlock
+inline module = ultralytics.nn.modules.block.SPPF
+inline module = ultralytics.nn.modules.conv.Concat
+inline module = ultralytics.nn.modules.conv.Conv
+inline module = ultralytics.nn.modules.conv.DWConv
+inline module = ultralytics.nn.modules.head.Detect
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+model inputshape = [1,3,640,640]f32
+FLOPS = 6.492G
+memory OPS = 97.141M
+[34m[1mNCNN:[0m export success ✅ 50.0s, saved as 'runs/detect/yolo_runs/skip_v2/weights/last_ncnn_model' (10.0 MB)
+
+Export complete (50.2s)
+Results saved to [1m/Volumes/DATA/workspace/vlm-bench/runs/detect/yolo_runs/skip_v2/weights/last_ncnn_model[0m
+Predict:         yolo predict task=detect model=runs/detect/yolo_runs/skip_v2/weights/last_ncnn_model imgsz=640 
+Validate:        yolo val task=detect model=runs/detect/yolo_runs/skip_v2/weights/last_ncnn_model imgsz=640 data=yolo_data/data.yaml  
+Visualize:       https://netron.app
+💡 Learn more at https://docs.ultralytics.com/modes/export

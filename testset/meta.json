@@ -1,0 +1,381 @@
+[
+ {
+  "file": "tr_pill_5.png",
+  "desc": "top-right dark pill 跳过 5",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   814,
+   96,
+   1005,
+   184
+  ],
+  "distractors": [
+   [
+    210,
+    1750,
+    870,
+    1880
+   ]
+  ]
+ },
+ {
+  "file": "tr_pill_ad.png",
+  "desc": "top-right dark pill 跳过广告",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   776,
+   109,
+   1004,
+   191
+  ],
+  "distractors": [
+   [
+    260,
+    1700,
+    820,
+    1900
+   ]
+  ]
+ },
+ {
+  "file": "tl_pill_3.png",
+  "desc": "top-left dark pill 跳过 3",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   74,
+   96,
+   265,
+   184
+  ],
+  "distractors": [
+   [
+    309.0,
+    1880,
+    771.0,
+    2050
+   ]
+  ]
+ },
+ {
+  "file": "br_pill.png",
+  "desc": "bottom-right pill 跳过 above brand strip",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   848,
+   2033,
+   1012,
+   2127
+  ],
+  "distractors": [
+   [
+    210,
+    1750,
+    870,
+    1880
+   ]
+  ]
+ },
+ {
+  "file": "tr_ring.png",
+  "desc": "top-right countdown ring 跳过",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   835,
+   65,
+   1025,
+   255
+  ],
+  "distractors": [
+   [
+    260,
+    1700,
+    820,
+    1900
+   ]
+  ]
+ },
+ {
+  "file": "tr_ring_num.png",
+  "desc": "top-right countdown ring with 3s",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   840,
+   70,
+   1020,
+   250
+  ],
+  "distractors": [
+   [
+    210,
+    1750,
+    870,
+    1880
+   ]
+  ]
+ },
+ {
+  "file": "tr_bare_skip.png",
+  "desc": "top-right bare text Skip",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   887,
+   93,
+   1013,
+   167
+  ],
+  "distractors": [
+   [
+    309.0,
+    1880,
+    771.0,
+    2050
+   ]
+  ]
+ },
+ {
+  "file": "tr_seg.png",
+  "desc": "top-right segmented 5s|跳过",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   773,
+   99,
+   1006,
+   181
+  ],
+  "distractors": []
+ },
+ {
+  "file": "tr_tiny.png",
+  "desc": "top-right tiny pill 跳过",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   920,
+   81,
+   1020,
+   139
+  ],
+  "distractors": [
+   [
+    210,
+    1750,
+    870,
+    1880
+   ]
+  ]
+ },
+ {
+  "file": "tr_light.png",
+  "desc": "top-right light pill 跳过 2",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   819,
+   99,
+   1001,
+   181
+  ],
+  "distractors": []
+ },
+ {
+  "file": "tr_outline.png",
+  "desc": "top-right outline pill Skip Ad",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   808,
+   102,
+   1002,
+   178
+  ],
+  "distractors": [
+   [
+    260,
+    1700,
+    820,
+    1900
+   ]
+  ]
+ },
+ {
+  "file": "bc_pill.png",
+  "desc": "bottom-center small 跳过广告 >",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   426,
+   2066,
+   653,
+   2134
+  ],
+  "distractors": [
+   [
+    210,
+    1750,
+    870,
+    1880
+   ]
+  ]
+ },
+ {
+  "file": "tl_ring.png",
+  "desc": "top-left countdown ring 跳过",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   58,
+   68,
+   242,
+   252
+  ],
+  "distractors": []
+ },
+ {
+  "file": "br_bare.png",
+  "desc": "bottom-right bare 跳过 3s",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   837,
+   2067,
+   1003,
+   2133
+  ],
+  "distractors": [
+   [
+    309.0,
+    1880,
+    771.0,
+    2050
+   ]
+  ]
+ },
+ {
+  "file": "tr_wifi.png",
+  "desc": "top-right pill with wifi预载 label nearby",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   862,
+   106,
+   1018,
+   194
+  ],
+  "distractors": [
+   [
+    210,
+    1750,
+    870,
+    1880
+   ]
+  ]
+ },
+ {
+  "file": "tr_pill_5_alt.png",
+  "desc": "top-right dark pill 跳过 5 (alt palette)",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   814,
+   96,
+   1005,
+   184
+  ],
+  "distractors": [
+   [
+    210,
+    1750,
+    870,
+    1880
+   ]
+  ]
+ },
+ {
+  "file": "tr_ring_alt.png",
+  "desc": "top-right countdown ring 跳过 (alt palette)",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   835,
+   65,
+   1025,
+   255
+  ],
+  "distractors": [
+   [
+    260,
+    1700,
+    820,
+    1900
+   ]
+  ]
+ },
+ {
+  "file": "tr_tiny_alt.png",
+  "desc": "top-right tiny pill 跳过 (alt palette)",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   920,
+   81,
+   1020,
+   139
+  ],
+  "distractors": [
+   [
+    210,
+    1750,
+    870,
+    1880
+   ]
+  ]
+ },
+ {
+  "file": "tl_pill_3_alt.png",
+  "desc": "top-left dark pill 跳过 3 (alt palette)",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   74,
+   96,
+   265,
+   184
+  ],
+  "distractors": [
+   [
+    309.0,
+    1880,
+    771.0,
+    2050
+   ]
+  ]
+ },
+ {
+  "file": "tr_ring_num_alt.png",
+  "desc": "top-right countdown ring with 3s (alt palette)",
+  "w": 1080,
+  "h": 2400,
+  "gt": [
+   840,
+   70,
+   1020,
+   250
+  ],
+  "distractors": [
+   [
+    210,
+    1750,
+    870,
+    1880
+   ]
+  ]
+ }
+]

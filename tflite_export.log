@@ -1,0 +1,264 @@
+WARNING ⚠️ format='tflite' is deprecated as of 8.4.83 and has been replaced by the unified Google LiteRT format. Exporting format='litert' instead. See https://docs.ultralytics.com/integrations/litert/
+Ultralytics 8.4.115 🚀 Python-3.13.9 torch-2.13.0 CPU (Apple M4)
+WARNING ⚠️ LiteRT INT8 export does not support end2end models, disabling end2end branch.
+YOLO11n summary (fused): 101 layers, 2,582,347 parameters, 0 gradients, 6.4 GFLOPs
+
+[34m[1mPyTorch:[0m starting from 'runs/detect/yolo_runs/skip_v1/weights/best.pt' with input shape (1, 3, 640, 640) BCHW and output shape(s) (1, 5, 8400) (20.2 MB)
+[34m[1mLiteRT:[0m collecting INT8 calibration images from 'data=yolo_data/data.yaml'
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 139.9±43.5 MB/s, size: 87.5 KB)
+[K[34m[1mval: [0mScanning /Volumes/DATA/workspace/vlm-bench/yolo_data/labels/val.cache... 240 images, 22 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 240/240 50.3Mit/s 0.0s
+WARNING ⚠️ [34m[1mLiteRT:[0m >300 images recommended for INT8 calibration, found 240 images.
+[31m[1mrequirements:[0m Ultralytics requirements ['litert-torch>=0.9.0', 'ai-edge-litert>=2.1.4'] not found, attempting AutoUpdate...
+Collecting litert-torch>=0.9.0
+  Downloading litert_torch-0.9.3-py3-none-any.whl.metadata (2.4 kB)
+Collecting ai-edge-litert>=2.1.4
+  Downloading ai_edge_litert-2.1.6-cp313-cp313-macosx_12_0_arm64.whl.metadata (2.3 kB)
+Requirement already satisfied: absl-py in ./yolo-venv/lib/python3.13/site-packages (from litert-torch>=0.9.0) (2.5.0)
+Requirement already satisfied: numpy in ./yolo-venv/lib/python3.13/site-packages (from litert-torch>=0.9.0) (2.2.6)
+Collecting scipy (from litert-torch>=0.9.0)
+  Downloading scipy-1.18.0-cp313-cp313-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting safetensors (from litert-torch>=0.9.0)
+  Downloading safetensors-0.8.0-cp310-abi3-macosx_11_0_arm64.whl.metadata (4.2 kB)
+Collecting multipledispatch (from litert-torch>=0.9.0)
+  Downloading multipledispatch-1.0.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting transformers (from litert-torch>=0.9.0)
+  Downloading transformers-5.14.1-py3-none-any.whl.metadata (32 kB)
+Collecting kagglehub (from litert-torch>=0.9.0)
+  Downloading kagglehub-1.0.2-py3-none-any.whl.metadata (40 kB)
+Collecting tabulate (from litert-torch>=0.9.0)
+  Downloading tabulate-0.10.0-py3-none-any.whl.metadata (40 kB)
+Collecting torch<2.13.0,>=2.4.0 (from litert-torch>=0.9.0)
+  Downloading torch-2.12.1-cp313-cp313-macosx_14_0_arm64.whl.metadata (31 kB)
+Collecting ai-edge-quantizer==0.8.* (from litert-torch>=0.9.0)
+  Downloading ai_edge_quantizer-0.8.0-py3-none-any.whl.metadata (16 kB)
+Collecting litert-converter==0.3.* (from litert-torch>=0.9.0)
+  Downloading litert_converter-0.3.0-cp313-cp313-macosx_12_0_arm64.whl.metadata (1.9 kB)
+Collecting torchao>=0.17.0 (from litert-torch>=0.9.0)
+  Downloading torchao-0.18.0-py3-none-any.whl.metadata (21 kB)
+Collecting jax (from litert-torch>=0.9.0)
+  Downloading jax-0.11.0-py3-none-any.whl.metadata (13 kB)
+Collecting jaxtyping (from litert-torch>=0.9.0)
+  Downloading jaxtyping-0.3.11-py3-none-any.whl.metadata (6.2 kB)
+Collecting fire (from litert-torch>=0.9.0)
+  Downloading fire-0.7.1-py3-none-any.whl.metadata (5.8 kB)
+Collecting sentencepiece (from litert-torch>=0.9.0)
+  Downloading sentencepiece-0.2.2-cp313-cp313-macosx_11_0_arm64.whl.metadata (33 kB)
+Requirement already satisfied: rich in ./yolo-venv/lib/python3.13/site-packages (from litert-torch>=0.9.0) (15.0.0)
+Collecting litert-lm-builder>=0.0.0.dev0 (from litert-torch>=0.9.0)
+  Downloading litert_lm_builder-0.15.0-py3-none-any.whl.metadata (857 bytes)
+Requirement already satisfied: backports.strenum in ./yolo-venv/lib/python3.13/site-packages (from ai-edge-litert>=2.1.4) (1.2.8)
+Requirement already satisfied: flatbuffers in ./yolo-venv/lib/python3.13/site-packages (from ai-edge-litert>=2.1.4) (25.12.19)
+Requirement already satisfied: tqdm in ./yolo-venv/lib/python3.13/site-packages (from ai-edge-litert>=2.1.4) (4.67.1)
+Requirement already satisfied: typing-extensions in ./yolo-venv/lib/python3.13/site-packages (from ai-edge-litert>=2.1.4) (4.16.0)
+Requirement already satisfied: protobuf in ./yolo-venv/lib/python3.13/site-packages (from ai-edge-litert>=2.1.4) (7.35.1)
+Collecting lark (from ai-edge-litert[model-utils]<2.2.0,>=2.1.6->litert-torch>=0.9.0)
+  Downloading lark-1.3.1-py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: ml_dtypes in ./yolo-venv/lib/python3.13/site-packages (from ai-edge-litert[model-utils]<2.2.0,>=2.1.6->litert-torch>=0.9.0) (0.5.4)
+Collecting xdsl==0.28.0 (from ai-edge-litert[model-utils]<2.2.0,>=2.1.6->litert-torch>=0.9.0)
+  Downloading xdsl-0.28.0-py3-none-any.whl.metadata (9.5 kB)
+Collecting immutabledict<4.2.2 (from xdsl==0.28.0->ai-edge-litert[model-utils]<2.2.0,>=2.1.6->litert-torch>=0.9.0)
+  Downloading immutabledict-4.2.1-py3-none-any.whl.metadata (3.5 kB)
+Collecting typing-extensions (from ai-edge-litert>=2.1.4)
+  Downloading typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting ordered-set==4.1.0 (from xdsl==0.28.0->ai-edge-litert[model-utils]<2.2.0,>=2.1.6->litert-torch>=0.9.0)
+  Downloading ordered_set-4.1.0-py3-none-any.whl.metadata (5.3 kB)
+Requirement already satisfied: filelock in ./yolo-venv/lib/python3.13/site-packages (from torch<2.13.0,>=2.4.0->litert-torch>=0.9.0) (3.32.2)
+Requirement already satisfied: setuptools<82 in ./yolo-venv/lib/python3.13/site-packages (from torch<2.13.0,>=2.4.0->litert-torch>=0.9.0) (81.0.0)
+Requirement already satisfied: sympy>=1.13.3 in ./yolo-venv/lib/python3.13/site-packages (from torch<2.13.0,>=2.4.0->litert-torch>=0.9.0) (1.14.0)
+Requirement already satisfied: networkx>=2.5.1 in ./yolo-venv/lib/python3.13/site-packages (from torch<2.13.0,>=2.4.0->litert-torch>=0.9.0) (3.6.1)
+Requirement already satisfied: jinja2 in ./yolo-venv/lib/python3.13/site-packages (from torch<2.13.0,>=2.4.0->litert-torch>=0.9.0) (3.1.6)
+Requirement already satisfied: fsspec>=0.8.5 in ./yolo-venv/lib/python3.13/site-packages (from torch<2.13.0,>=2.4.0->litert-torch>=0.9.0) (2026.7.0)
+Collecting tomli (from litert-lm-builder>=0.0.0.dev0->litert-torch>=0.9.0)
+  Downloading tomli-2.4.1-cp313-cp313-macosx_11_0_arm64.whl.metadata (10 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./yolo-venv/lib/python3.13/site-packages (from sympy>=1.13.3->torch<2.13.0,>=2.4.0->litert-torch>=0.9.0) (1.3.0)
+Requirement already satisfied: termcolor in ./yolo-venv/lib/python3.13/site-packages (from fire->litert-torch>=0.9.0) (3.3.0)
+Collecting jaxlib<=0.11.0,>=0.11.0 (from jax->litert-torch>=0.9.0)
+  Downloading jaxlib-0.11.0-cp313-cp313-macosx_11_0_arm64.whl.metadata (1.3 kB)
+Requirement already satisfied: opt_einsum in ./yolo-venv/lib/python3.13/site-packages (from jax->litert-torch>=0.9.0) (3.4.0)
+Collecting wadler-lindig>=0.1.3 (from jaxtyping->litert-torch>=0.9.0)
+  Downloading wadler_lindig-0.1.7-py3-none-any.whl.metadata (17 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in ./yolo-venv/lib/python3.13/site-packages (from jinja2->torch<2.13.0,>=2.4.0->litert-torch>=0.9.0) (3.0.3)
+Collecting kagglesdk<1.0,>=0.1.22 (from kagglehub->litert-torch>=0.9.0)
+  Downloading kagglesdk-0.1.37-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: packaging in ./yolo-venv/lib/python3.13/site-packages (from kagglehub->litert-torch>=0.9.0) (26.3)
+Requirement already satisfied: pyyaml in ./yolo-venv/lib/python3.13/site-packages (from kagglehub->litert-torch>=0.9.0) (6.0.3)
+Requirement already satisfied: requests in ./yolo-venv/lib/python3.13/site-packages (from kagglehub->litert-torch>=0.9.0) (2.34.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./yolo-venv/lib/python3.13/site-packages (from requests->kagglehub->litert-torch>=0.9.0) (3.4.9)
+Requirement already satisfied: idna<4,>=2.5 in ./yolo-venv/lib/python3.13/site-packages (from requests->kagglehub->litert-torch>=0.9.0) (3.18)
+Requirement already satisfied: urllib3<3,>=1.26 in ./yolo-venv/lib/python3.13/site-packages (from requests->kagglehub->litert-torch>=0.9.0) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in ./yolo-venv/lib/python3.13/site-packages (from requests->kagglehub->litert-torch>=0.9.0) (2026.7.22)
+Requirement already satisfied: markdown-it-py>=2.2.0 in ./yolo-venv/lib/python3.13/site-packages (from rich->litert-torch>=0.9.0) (4.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./yolo-venv/lib/python3.13/site-packages (from rich->litert-torch>=0.9.0) (2.20.0)
+Requirement already satisfied: mdurl~=0.1 in ./yolo-venv/lib/python3.13/site-packages (from markdown-it-py>=2.2.0->rich->litert-torch>=0.9.0) (0.1.2)
+Collecting huggingface-hub<2.0,>=1.5.0 (from transformers->litert-torch>=0.9.0)
+  Downloading huggingface_hub-1.26.1-py3-none-any.whl.metadata (16 kB)
+Collecting regex>=2025.10.22 (from transformers->litert-torch>=0.9.0)
+  Downloading regex-2026.7.19-cp313-cp313-macosx_11_0_arm64.whl.metadata (40 kB)
+Collecting tokenizers<=0.23.0,>=0.22.0 (from transformers->litert-torch>=0.9.0)
+  Downloading tokenizers-0.22.2-cp39-abi3-macosx_11_0_arm64.whl.metadata (7.3 kB)
+Collecting typer (from transformers->litert-torch>=0.9.0)
+  Downloading typer-0.27.1-py3-none-any.whl.metadata (16 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface-hub<2.0,>=1.5.0->transformers->litert-torch>=0.9.0)
+  Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting hf-xet<2.0.0,>=1.5.1 (from huggingface-hub<2.0,>=1.5.0->transformers->litert-torch>=0.9.0)
+  Downloading hf_xet-1.6.0-cp38-abi3-macosx_11_0_arm64.whl.metadata (4.9 kB)
+Collecting httpx<1,>=0.23.0 (from huggingface-hub<2.0,>=1.5.0->transformers->litert-torch>=0.9.0)
+  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting anyio (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers->litert-torch>=0.9.0)
+  Downloading anyio-4.14.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting httpcore==1.* (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers->litert-torch>=0.9.0)
+  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers->litert-torch>=0.9.0)
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting shellingham>=1.3.0 (from typer->transformers->litert-torch>=0.9.0)
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting annotated-doc>=0.0.2 (from typer->transformers->litert-torch>=0.9.0)
+  Downloading annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+Downloading litert_torch-0.9.3-py3-none-any.whl (695 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 695.8/695.8 kB 3.6 MB/s  0:00:00
+Downloading ai_edge_litert-2.1.6-cp313-cp313-macosx_12_0_arm64.whl (10.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 6.0 MB/s  0:00:01
+Downloading xdsl-0.28.0-py3-none-any.whl (1.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 6.5 MB/s  0:00:00
+Downloading ordered_set-4.1.0-py3-none-any.whl (7.6 kB)
+Downloading ai_edge_quantizer-0.8.0-py3-none-any.whl (448 kB)
+Downloading immutabledict-4.2.1-py3-none-any.whl (4.7 kB)
+Downloading litert_converter-0.3.0-cp313-cp313-macosx_12_0_arm64.whl (102.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.4/102.4 MB 8.6 MB/s  0:00:11
+Downloading torch-2.12.1-cp313-cp313-macosx_14_0_arm64.whl (88.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.0/88.0 MB 10.6 MB/s  0:00:08
+Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Downloading litert_lm_builder-0.15.0-py3-none-any.whl (36 kB)
+Downloading torchao-0.18.0-py3-none-any.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 16.3 MB/s  0:00:00
+Downloading fire-0.7.1-py3-none-any.whl (115 kB)
+Downloading jax-0.11.0-py3-none-any.whl (3.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 16.8 MB/s  0:00:00
+Downloading jaxlib-0.11.0-cp313-cp313-macosx_11_0_arm64.whl (62.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.5/62.5 MB 11.7 MB/s  0:00:05
+Downloading scipy-1.18.0-cp313-cp313-macosx_14_0_arm64.whl (20.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.4/20.4 MB 7.9 MB/s  0:00:02
+Downloading jaxtyping-0.3.11-py3-none-any.whl (56 kB)
+Downloading wadler_lindig-0.1.7-py3-none-any.whl (20 kB)
+Downloading kagglehub-1.0.2-py3-none-any.whl (70 kB)
+Downloading kagglesdk-0.1.37-py3-none-any.whl (262 kB)
+Downloading lark-1.3.1-py3-none-any.whl (113 kB)
+Downloading multipledispatch-1.0.0-py3-none-any.whl (12 kB)
+Downloading safetensors-0.8.0-cp310-abi3-macosx_11_0_arm64.whl (484 kB)
+Downloading sentencepiece-0.2.2-cp313-cp313-macosx_11_0_arm64.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 402.8 kB/s  0:00:03
+Downloading tabulate-0.10.0-py3-none-any.whl (39 kB)
+Downloading tomli-2.4.1-cp313-cp313-macosx_11_0_arm64.whl (149 kB)
+Downloading transformers-5.14.1-py3-none-any.whl (11.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 1.0 MB/s  0:00:11
+Downloading huggingface_hub-1.26.1-py3-none-any.whl (780 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 780.8/780.8 kB 1.6 MB/s  0:00:00
+Downloading click-8.4.2-py3-none-any.whl (119 kB)
+Downloading hf_xet-1.6.0-cp38-abi3-macosx_11_0_arm64.whl (3.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 1.6 MB/s  0:00:02
+Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Downloading tokenizers-0.22.2-cp39-abi3-macosx_11_0_arm64.whl (3.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 2.6 MB/s  0:00:01
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading regex-2026.7.19-cp313-cp313-macosx_11_0_arm64.whl (291 kB)
+Downloading anyio-4.14.2-py3-none-any.whl (125 kB)
+Downloading typer-0.27.1-py3-none-any.whl (122 kB)
+Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Installing collected packages: torchao, multipledispatch, wadler-lindig, typing-extensions, tomli, tabulate, shellingham, sentencepiece, scipy, safetensors, regex, ordered-set, lark, immutabledict, hf-xet, h11, fire, click, anyio, annotated-doc, xdsl, torch, litert-lm-builder, kagglesdk, jaxtyping, jaxlib, httpcore, ai-edge-litert, typer, litert-converter, kagglehub, jax, httpx, ai-edge-quantizer, huggingface-hub, tokenizers, transformers, litert-torch
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.16.0
+    Uninstalling typing_extensions-4.16.0:
+      Successfully uninstalled typing_extensions-4.16.0
+  Attempting uninstall: torch
+    Found existing installation: torch 2.13.0
+    Uninstalling torch-2.13.0:
+      Successfully uninstalled torch-2.13.0
+  Attempting uninstall: ai-edge-litert
+    Found existing installation: ai-edge-litert 2.1.2
+    Uninstalling ai-edge-litert-2.1.2:
+      Successfully uninstalled ai-edge-litert-2.1.2
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+onnx2tf 2.6.8 requires ai-edge-litert==2.1.2, but you have ai-edge-litert 2.1.6 which is incompatible.
+torchvision 0.28.0 requires torch==2.13.0, but you have torch 2.12.1 which is incompatible.
+Successfully installed ai-edge-litert-2.1.6 ai-edge-quantizer-0.8.0 annotated-doc-0.0.5 anyio-4.14.2 click-8.4.2 fire-0.7.1 h11-0.16.0 hf-xet-1.6.0 httpcore-1.0.9 httpx-0.28.1 huggingface-hub-1.26.1 immutabledict-4.2.1 jax-0.11.0 jaxlib-0.11.0 jaxtyping-0.3.11 kagglehub-1.0.2 kagglesdk-0.1.37 lark-1.3.1 litert-converter-0.3.0 litert-lm-builder-0.15.0 litert-torch-0.9.3 multipledispatch-1.0.0 ordered-set-4.1.0 regex-2026.7.19 safetensors-0.8.0 scipy-1.18.0 sentencepiece-0.2.2 shellingham-1.5.4 tabulate-0.10.0 tokenizers-0.22.2 tomli-2.4.1 torch-2.12.1 torchao-0.18.0 transformers-5.14.1 typer-0.27.1 typing-extensions-4.12.2 wadler-lindig-0.1.7 xdsl-0.28.0
+
+[31m[1mrequirements:[0m AutoUpdate success ✅ 114.3s
+WARNING ⚠️ [31m[1mrequirements:[0m [1mRestart runtime or rerun command for updates to take effect[0m
+
+W0807 13:44:28.050000 16695 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+W0807 13:44:28.064000 16695 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+
+[34m[1mLiteRT:[0m starting export with litert_torch 0.9.3...
+(00:00) [START] LiteRT-Torch Convert
+WARNING:root:Your model is converted in training mode. Please set the module in evaluation mode with `module.eval()` for better on-device performance and compatibility.
+(00:00) [START] LiteRT-Torch Convert > Torch Export: serving_default
+(00:00) [ FAIL] LiteRT-Torch Convert > Torch Export: serving_default
+(00:00) [ FAIL] LiteRT-Torch Convert
+ERROR ❌ [34m[1mLiteRT:[0m export failure 144.7s: cannot import name 'get_cuda_generator_meta_val' from 'torch._functorch._aot_autograd.utils' (/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/torch/_functorch/_aot_autograd/utils.py)
+Export to tflite in the cloud with Ultralytics Platform: https://platform.ultralytics.com
+Traceback (most recent call last):
+  File "/Volumes/DATA/workspace/vlm-bench/./yolo-venv/bin/yolo", line 7, in <module>
+    sys.exit(entrypoint())
+             ~~~~~~~~~~^^
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/ultralytics/cfg/__init__.py", line 1123, in entrypoint
+    getattr(model, mode)(**overrides)  # default args from model
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/ultralytics/engine/model.py", line 732, in export
+    return Exporter(overrides=args, _callbacks=self.callbacks)(model=self.model)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/ultralytics/engine/exporter.py", line 943, in __call__
+    f = getattr(self, f"export_{fmt}")()
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/ultralytics/engine/exporter.py", line 483, in outer_func
+    f = inner_func(*args, **kwargs)  # exported file/dir or tuple of (file/dir, *)
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/ultralytics/engine/exporter.py", line 1235, in export_litert
+    return torch2litert(
+        self.model,
+    ...<7 lines>...
+        prefix=prefix,
+    )
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/ultralytics/utils/export/litert.py", line 67, in torch2litert
+    edge_model = litert_torch.convert(model, (im,))
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/litert_torch/_convert/interface.py", line 323, in convert
+    return Converter().convert(
+           ~~~~~~~~~~~~~~~~~~~^
+        module,
+        ^^^^^^^
+    ...<7 lines>...
+        runtime_constant_folding=runtime_constant_folding,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/litert_torch/_convert/interface.py", line 208, in convert
+    converted_model = core.convert_signatures(
+        self._signatures,
+    ...<4 lines>...
+        runtime_constant_folding=runtime_constant_folding,
+    )
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/contextlib.py", line 85, in inner
+    return func(*args, **kwds)
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/litert_torch/_convert/core.py", line 146, in convert_signatures
+    exported_program = export(
+        mod=sig.module,
+    ...<2 lines>...
+        dynamic_shapes=sig.dynamic_shapes,
+    )
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/litert_torch/_convert/core.py", line 128, in export
+    exported_program = torch.export.export(**kwargs, strict=False)
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/torch/export/__init__.py", line 157, in export
+    from ._trace import _export
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/torch/export/_trace.py", line 69, in <module>
+    from torch._functorch.aot_autograd import (
+    ...<2 lines>...
+    )
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/torch/_functorch/aot_autograd.py", line 80, in <module>
+    from ._aot_autograd.graph_compile import (  # noqa: F401
+    ...<3 lines>...
+    )
+  File "/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/torch/_functorch/_aot_autograd/graph_compile.py", line 90, in <module>
+    from .utils import (
+    ...<6 lines>...
+    )
+ImportError: cannot import name 'get_cuda_generator_meta_val' from 'torch._functorch._aot_autograd.utils' (/Volumes/DATA/workspace/vlm-bench/yolo-venv/lib/python3.13/site-packages/torch/_functorch/_aot_autograd/utils.py)

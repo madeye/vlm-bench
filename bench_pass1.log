@@ -1,0 +1,152 @@
+[smolvlm2-256m] tr_pill_5.png rc=0 0.5s :: "The text in the screenshot reads: '跳过这次跳动的基本位置' (Skip this time, the basic locat"
+Traceback (most recent call last):
+  File "/Volumes/DATA/workspace/vlm-bench/run_bench.py", line 68, in <module>
+    p = subprocess.run(
+        [CLI, "-m", mpath, "--mmproj", mmpath,
+         "--image", os.path.join(IMGDIR, img),
+         "--temp", "0", "-n", "64", "-p", PROMPT],
+        capture_output=True, text=True, timeout=600)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/subprocess.py", line 556, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/subprocess.py", line 1222, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/subprocess.py", line 2169, in _communicate
+    stdout = self._translate_newlines(stdout,
+                                      self.stdout.encoding,
+                                      self.stdout.errors)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/subprocess.py", line 1099, in _translate_newlines
+    data = data.decode(encoding, errors)
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 104-105: invalid continuation byte
+[smolvlm2-256m] tr_pill_ad.png rc=0 0.6s :: '在这个跳过框中，我们可以选择其他框架，如阅读、游戏、系统等。我们可以�'
+[smolvlm2-256m] tl_pill_3.png rc=0 0.5s :: 'The text in the image is "跳过" (Skip) and "关闭" (Close). The bounding box is [0, 0'
+[smolvlm2-256m] br_pill.png rc=0 0.5s :: "The text '跳过' (Skip) is displayed at the bottom of the screen. The bounding box "
+[smolvlm2-256m] tr_ring.png rc=0 0.5s :: '在这个跳过框中，我们可以按照下面的步骤来查看我们的跳过框的位置。我们'
+[smolvlm2-256m] tr_ring_num.png rc=0 0.4s :: "The text '跳过' (Skip) is displayed at the bottom of the screen. The bounding box "
+[smolvlm2-256m] tr_bare_skip.png rc=0 0.5s :: "The text in the screenshot reads: '跳过5次' (Skip 5 times). The bounding box is [50"
+[smolvlm2-256m] tr_seg.png rc=0 0.5s :: '在这个桌面上，我们可以通过点击跳过来查看我们的跳过条件。我们可以选择跳'
+[smolvlm2-256m] tr_tiny.png rc=0 0.5s :: "The text in the screenshot reads: '跳过这个跳动跳动跳动跳动跳动跳动跳动跳动跳动跳�"
+[smolvlm2-256m] tr_light.png rc=0 0.5s :: '在游戏中，我们可以通过跳过跳动的背景来清晰地看到我们的背景。�'
+[smolvlm2-256m] tr_outline.png rc=0 0.5s :: "The text in the video says '跳过' (Skip) and '关闭' (Close). The bounding box is [0,"
+[smolvlm2-256m] bc_pill.png rc=0 0.5s :: "The text in the screenshot is '跳过' (Skip) and '关闭' (Close). The bounding box is "
+[smolvlm2-256m] tl_ring.png rc=0 0.5s :: '在游戏中，我们可以通过跳过一个跳动路径来游戏。我们可以通过跳动路径'
+[smolvlm2-256m] br_bare.png rc=0 0.5s :: '在这个跳过框中，我们可以选择其他框架，如何选择其他框架，如何选择其�'
+[smolvlm2-256m] tr_wifi.png rc=0 0.6s :: "The text in the screenshot reads: '跳过这个跳动跳动跳动跳动跳动跳动跳动跳动跳动跳�"
+[smolvlm2-256m] tr_pill_5_alt.png rc=0 0.5s :: "The text '跳过' (Skip) is displayed in red at the bottom of the screen. The boundi"
+[smolvlm2-256m] tr_ring_alt.png rc=0 0.5s :: 'The text in the image is "跳过" (Skip) and "关闭" (Close). The bounding box is [0, 0'
+[smolvlm2-256m] tr_tiny_alt.png rc=0 0.5s :: 'The app shows a purple background with a white square in the center. Below the s'
+[smolvlm2-256m] tl_pill_3_alt.png rc=0 0.5s :: 'The text in the screenshot is "跳过5点" and it is located at the top of the screen.'
+[smolvlm2-256m] tr_ring_num_alt.png rc=0 0.5s :: "The text '跳过' (Skip) is displayed in red at the bottom of the screen. The boundi"
+[smolvlm2-500m] tr_pill_5.png rc=0 1.6s :: '1000.0.'
+[smolvlm2-500m] tr_pill_ad.png rc=0 0.4s :: '1000.0.'
+[smolvlm2-500m] tl_pill_3.png rc=0 0.4s :: '1000.0.'
+[smolvlm2-500m] br_pill.png rc=0 0.4s :: '100.0.'
+[smolvlm2-500m] tr_ring.png rc=0 0.4s :: '1000.0.'
+[smolvlm2-500m] tr_ring_num.png rc=0 0.4s :: '1000.0.'
+[smolvlm2-500m] tr_bare_skip.png rc=0 0.5s :: '[100, 100, 100, 100]'
+[smolvlm2-500m] tr_seg.png rc=0 0.4s :: '1000.0.'
+[smolvlm2-500m] tr_tiny.png rc=0 0.4s :: '1000.0.'
+[smolvlm2-500m] tr_light.png rc=0 0.4s :: '100.0.'
+[smolvlm2-500m] tr_outline.png rc=0 0.4s :: '1000.0.'
+[smolvlm2-500m] bc_pill.png rc=0 0.4s :: '1000.0.'
+[smolvlm2-500m] tl_ring.png rc=0 0.4s :: '1000.0.'
+[smolvlm2-500m] br_bare.png rc=0 0.4s :: '1000.0.'
+[smolvlm2-500m] tr_wifi.png rc=0 0.5s :: '100, 100, 100, 100'
+[smolvlm2-500m] tr_pill_5_alt.png rc=0 0.4s :: '100.0.'
+[smolvlm2-500m] tr_ring_alt.png rc=0 0.5s :: '100, 100, 100, 100'
+[smolvlm2-500m] tr_tiny_alt.png rc=0 0.4s :: '1000.0.'
+[smolvlm2-500m] tl_pill_3_alt.png rc=0 0.5s :: '1000.0.'
+[smolvlm2-500m] tr_ring_num_alt.png rc=0 0.4s :: '1000.0.'
+[lfm2-vl-450m] tr_pill_5.png rc=0 1.9s :: '[0.2, 0.5, 0.3, 0.6]'
+[lfm2-vl-450m] tr_pill_ad.png rc=0 0.6s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] tl_pill_3.png rc=0 0.6s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] br_pill.png rc=0 0.6s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] tr_ring.png rc=0 0.6s :: '[0.2, 0.5, 0.3, 0.6]'
+[lfm2-vl-450m] tr_ring_num.png rc=0 0.7s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] tr_bare_skip.png rc=0 0.7s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] tr_seg.png rc=0 0.7s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] tr_tiny.png rc=0 0.6s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] tr_light.png rc=0 0.7s :: '[0.2, 0.2, 0.8, 0.5]'
+[lfm2-vl-450m] tr_outline.png rc=0 0.7s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] bc_pill.png rc=0 0.6s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] tl_ring.png rc=0 0.7s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] br_bare.png rc=0 0.6s :: '[0.2, 0.5, 0.3, 0.6]'
+[lfm2-vl-450m] tr_wifi.png rc=0 0.7s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] tr_pill_5_alt.png rc=0 0.6s :: '[0.2, 0.5, 0.3, 0.6]'
+[lfm2-vl-450m] tr_ring_alt.png rc=0 0.6s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] tr_tiny_alt.png rc=0 0.6s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] tl_pill_3_alt.png rc=0 0.6s :: '[0.0, 0.0, 0.99, 0.99]'
+[lfm2-vl-450m] tr_ring_num_alt.png rc=0 0.6s :: '[0.0, 0.0, 0.99, 0.99]'
+[internvl3-2b] tr_pill_5.png rc=0 4.5s :: '[200, 100, 300, 200]'
+[internvl3-2b] tr_pill_ad.png rc=0 1.6s :: '[0.0, 0.0, 0.1, 0.1]'
+[internvl3-2b] tl_pill_3.png rc=0 1.7s :: '[0.15, 0.10, 0.25, 0.20]'
+[internvl3-2b] br_pill.png rc=0 1.7s :: '[0.5, 0.5, 0.7, 0.7]'
+[internvl3-2b] tr_ring.png rc=0 1.8s :: '[0.75, 0.05, 0.8, 0.1]'
+[internvl3-2b] tr_ring_num.png rc=0 1.6s :: '[0.0, 0.0, 0.1, 0.1]'
+[internvl3-2b] tr_bare_skip.png rc=0 1.7s :: '[0.85, 0.05, 1.0, 0.1]'
+[internvl3-2b] tr_seg.png rc=0 1.7s :: '[0.75, 0.05, 0.8, 0.1]'
+[internvl3-2b] tr_tiny.png rc=0 1.9s :: '[0.0, 0.0, 0.1, 0.1]'
+[internvl3-2b] tr_light.png rc=0 1.7s :: '[0.0, 0.0, 0.1, 0.1]'
+[internvl3-2b] tr_outline.png rc=0 1.7s :: '[0.25, 0.30, 0.40, 0.45]'
+[internvl3-2b] bc_pill.png rc=0 1.6s :: '[0.5, 0.5, 0.7, 0.7]'
+[internvl3-2b] tl_ring.png rc=0 1.6s :: '[200, 100, 300, 200]'
+[internvl3-2b] br_bare.png rc=0 1.7s :: '[0.5, 0.5, 0.7, 0.7]'
+[internvl3-2b] tr_wifi.png rc=0 1.7s :: '[0.75, 0.05, 0.8, 0.1]'
+[internvl3-2b] tr_pill_5_alt.png rc=0 1.7s :: '[0.0, 0.0, 0.1, 0.1]'
+[internvl3-2b] tr_ring_alt.png rc=0 1.7s :: '[0.75, 0.05, 0.8, 0.1]'
+[internvl3-2b] tr_tiny_alt.png rc=0 1.7s :: '[0.0, 0.0, 0.1, 0.1]'
+[internvl3-2b] tl_pill_3_alt.png rc=0 1.7s :: '[0.0, 0.0, 0.1, 0.1]'
+[internvl3-2b] tr_ring_num_alt.png rc=0 1.7s :: '[0.5, 0.3, 0.7, 0.5]'
+[skip] qwen2-vl-2b: files not ready
+[skip] qwen25-vl-3b-q8mm: files not ready
+[skip] qwen25-vl-3b-f16mm: files not ready
+[skip] minicpm-v26: files not ready
+BENCH PASS COMPLETE
+[qwen2-vl-2b] tr_pill_5.png rc=0 5.9s :: '[333, 200, 666, 300]'
+[qwen2-vl-2b] tr_pill_ad.png rc=0 1.9s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tl_pill_3.png rc=0 1.9s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] br_pill.png rc=0 1.9s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tr_ring.png rc=0 1.8s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tr_ring_num.png rc=0 1.9s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tr_bare_skip.png rc=0 1.8s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tr_seg.png rc=0 1.8s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tr_tiny.png rc=0 1.8s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tr_light.png rc=0 1.9s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tr_outline.png rc=0 1.8s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] bc_pill.png rc=0 1.9s :: '[333, 200, 666, 300]'
+[qwen2-vl-2b] tl_ring.png rc=0 1.8s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] br_bare.png rc=0 1.9s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tr_wifi.png rc=0 1.8s :: '[333, 200, 666, 300]'
+[qwen2-vl-2b] tr_pill_5_alt.png rc=0 1.8s :: '[333, 200, 666, 300]'
+[qwen2-vl-2b] tr_ring_alt.png rc=0 1.8s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tr_tiny_alt.png rc=0 1.9s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tl_pill_3_alt.png rc=0 1.8s :: '[333, 200, 666, 400]'
+[qwen2-vl-2b] tr_ring_num_alt.png rc=0 1.8s :: '[333, 200, 666, 400]'
+[skip] qwen25-vl-3b-q8mm: files not ready
+[skip] qwen25-vl-3b-f16mm: files not ready
+[skip] minicpm-v26: files not ready
+BENCH PASS COMPLETE
+[qwen25-vl-3b-q8mm] tr_pill_5.png rc=0 9.1s :: '[265,22,293,35 ymin, 0, 1000 ymax, 1000 xmax, 0, 1000 xmin]'
+[qwen25-vl-3b-q8mm] tr_pill_ad.png rc=0 2.4s :: '[14,1,66,12]'
+[qwen25-vl-3b-q8mm] tl_pill_3.png rc=0 2.5s :: '[10,10,50,20]'
+[qwen25-vl-3b-q8mm] br_pill.png rc=0 2.7s :: '[605, 267, 628, 277]'
+[qwen25-vl-3b-q8mm] tr_ring.png rc=0 2.7s :: '[269,19,296,48]'
+[qwen25-vl-3b-q8mm] tr_ring_num.png rc=0 2.5s :: '[270,20,290,40]'
+[qwen25-vl-3b-q8mm] tr_bare_skip.png rc=0 2.7s :: '[90, 340, 100, 350]'
+[qwen25-vl-3b-q8mm] tr_seg.png rc=0 2.7s :: '[500, 2, 510, 10]'
+[qwen25-vl-3b-q8mm] tr_tiny.png rc=0 2.5s :: '[169,22,185,30]'
+[qwen25-vl-3b-q8mm] tr_light.png rc=0 2.6s :: '[72,0,100,15]'
+[qwen25-vl-3b-q8mm] tr_outline.png rc=0 2.8s :: '[100, 100, 100, 100]'
+[qwen25-vl-3b-q8mm] bc_pill.png rc=0 2.8s :: '[192,382,232,392]'
+[qwen25-vl-3b-q8mm] tl_ring.png rc=0 2.8s :: '[12,20,42,49]'
+[qwen25-vl-3b-q8mm] br_bare.png rc=0 2.7s :: '[721,380,740,390]'
+[qwen25-vl-3b-q8mm] tr_wifi.png rc=0 2.8s :: '[491, 25, 520, 42]'
+[qwen25-vl-3b-q8mm] tr_pill_5_alt.png rc=0 2.6s :: '[10,10,100,20]'
+[qwen25-vl-3b-q8mm] tr_ring_alt.png rc=0 2.7s :: '[160,19,184,49]'
+[qwen25-vl-3b-q8mm] tr_tiny_alt.png rc=0 2.5s :: '[290,24,300,30]'
+[qwen25-vl-3b-q8mm] tl_pill_3_alt.png rc=0 2.5s :: '[10,29,40,39]'
+[qwen25-vl-3b-q8mm] tr_ring_num_alt.png rc=0 2.6s :: '[270,24,290,44]'
+[skip] qwen25-vl-3b-f16mm: files not ready
+[skip] minicpm-v26: files not ready
+BENCH PASS COMPLETE

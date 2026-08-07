@@ -1,0 +1,41 @@
+OK mmproj-SmolVLM2-500M-Video-Instruct-Q8_0.gguf
+OK SmolVLM2-500M-Video-Instruct-Q8_0.gguf
+OK LFM2-VL-450M-Q8_0.gguf
+OK mmproj-LFM2-VL-450M-Q8_0.gguf
+OK mmproj-InternVL3-2B-Instruct-Q8_0.gguf
+OK InternVL3-2B-Instruct-Q4_K_M.gguf
+OK Qwen2-VL-2B-Instruct-Q4_K_M.gguf
+OK mmproj-Qwen2-VL-2B-Instruct-f16.gguf
+OK Qwen2.5-VL-3B-Instruct-Q4_K_M.gguf
+OK mmproj-Qwen2.5-VL-3B-Instruct-Q8_0.gguf
+OK mmproj-Qwen2.5-VL-3B-Instruct-f16.gguf
+OK ggml-model-Q4_K_M.gguf
+OK mmproj-model-f16.gguf
+ALL DONE
+total 28819040
+-rw-r--r--@ 1 mlv  staff   1.0G Aug  7 11:45 InternVL3-2B-Instruct-Q4_K_M.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 11:45 InternVL3-2B-Instruct-Q4_K_M.gguf.done
+-rw-r--r--@ 1 mlv  staff   362M Aug  7 11:43 LFM2-VL-450M-Q8_0.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 11:43 LFM2-VL-450M-Q8_0.gguf.done
+-rw-r--r--@ 1 mlv  staff   4.4G Aug  7 12:02 minicpm-v26-ggml-model-Q4_K_M.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 12:02 minicpm-v26-ggml-model-Q4_K_M.gguf.done
+-rw-r--r--@ 1 mlv  staff   996M Aug  7 12:04 minicpm-v26-mmproj-model-f16.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 12:04 minicpm-v26-mmproj-model-f16.gguf.done
+-rw-r--r--@ 1 mlv  staff   321M Aug  7 11:44 mmproj-InternVL3-2B-Instruct-Q8_0.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 11:44 mmproj-InternVL3-2B-Instruct-Q8_0.gguf.done
+-rw-r--r--@ 1 mlv  staff    99M Aug  7 11:44 mmproj-LFM2-VL-450M-Q8_0.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 11:44 mmproj-LFM2-VL-450M-Q8_0.gguf.done
+-rw-r--r--@ 1 mlv  staff   1.2G Aug  7 11:51 mmproj-Qwen2-VL-2B-Instruct-f16.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 11:51 mmproj-Qwen2-VL-2B-Instruct-f16.gguf.done
+-rw-r--r--@ 1 mlv  staff   1.2G Aug  7 11:58 mmproj-Qwen2.5-VL-3B-Instruct-f16.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 11:58 mmproj-Qwen2.5-VL-3B-Instruct-f16.gguf.done
+-rw-r--r--@ 1 mlv  staff   806M Aug  7 11:55 mmproj-Qwen2.5-VL-3B-Instruct-Q8_0.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 11:55 mmproj-Qwen2.5-VL-3B-Instruct-Q8_0.gguf.done
+-rw-r--r--@ 1 mlv  staff   104M Aug  7 11:42 mmproj-SmolVLM2-500M-Video-Instruct-Q8_0.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 11:42 mmproj-SmolVLM2-500M-Video-Instruct-Q8_0.gguf.done
+-rw-r--r--@ 1 mlv  staff   940M Aug  7 11:51 Qwen2-VL-2B-Instruct-Q4_K_M.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 11:51 Qwen2-VL-2B-Instruct-Q4_K_M.gguf.done
+-rw-r--r--@ 1 mlv  staff   1.8G Aug  7 11:51 Qwen2.5-VL-3B-Instruct-Q4_K_M.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 11:51 Qwen2.5-VL-3B-Instruct-Q4_K_M.gguf.done
+-rw-r--r--@ 1 mlv  staff   417M Aug  7 11:43 SmolVLM2-500M-Video-Instruct-Q8_0.gguf
+-rw-r--r--@ 1 mlv  staff     0B Aug  7 11:43 SmolVLM2-500M-Video-Instruct-Q8_0.gguf.done

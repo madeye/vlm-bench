@@ -1,0 +1,13 @@
+# Large local artifacts (not for GitHub)
+models/
+yolo-venv/
+ggml-yolo/out/
+yolo_data/images/
+runs/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

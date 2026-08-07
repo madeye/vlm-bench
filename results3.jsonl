@@ -1,0 +1,180 @@
+{"model": "smolvlm2-256m", "image": "tr_pill_5.png", "rc": 0, "wall_s": 1.03, "raw": "The text in the screenshot is: \"深度清洁\" (Deep Clean)\n\nThe bounding box in JSON is: {\"bbox_2d\": [x1, y1, x2, y2]}", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_pill_ad.png", "rc": 0, "wall_s": 0.5, "raw": "The text in the image is in Chinese and translates to \"Skip the ad\". The bounding box is in JSON format and is shown in a circular format. The text is displayed in a red color.", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tl_pill_3.png", "rc": 0, "wall_s": 0.55, "raw": "The text in the image is in Chinese and translates to \"Skip the ad\". The bounding box is in JSON format and contains the coordinates of the target location. The text is displayed in a bold font, making it easy to read.", "timing": ""}
+{"model": "smolvlm2-256m", "image": "br_pill.png", "rc": 0, "wall_s": 0.59, "raw": "The text in the image is: '跳过' (Skip) and '关闭' (Close). The bounding box is: [0, 0, 100, 100] (0, 0, 100, 100)", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_ring.png", "rc": 0, "wall_s": 0.57, "raw": "The text in the image is \"跳过\" (Skip) and \"关闭\" (Close). The bounding box is shown as \"跳过\" (Skip) and \"关闭\" (Close). The text is in Chinese.", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_ring_num.png", "rc": 0, "wall_s": 0.57, "raw": "The text in the screenshot is: '跳过' (Skip) and '关闭' (Close). The bounding box is: [299.0, 60.0] (x1, y1, x2, y2)", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_bare_skip.png", "rc": 0, "wall_s": 0.6, "raw": "The text in the image is \"跳过\" (Skip) and \"关闭\" (Close). The bounding box is shown as \"跳过\" (Skip) and \"关闭\" (Close). The text is in a bold font, and the background is", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_seg.png", "rc": 0, "wall_s": 0.63, "raw": "The text in the image is: '跳过我们的跳动路径'。我们可以将这个文本转换为JSON，然后使用JSON.parse()方法将JSON", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_tiny.png", "rc": 0, "wall_s": 0.56, "raw": "The text in the screenshot is: \"跳过\" (Skip) and \"关闭\" (Close). The bounding box is: {\"bbox_2d\": [x1, y1, x2, y2]}", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_light.png", "rc": 0, "wall_s": 0.5, "raw": "The text in the screenshot is in Chinese and translates to 'Skip the ad'. The bounding box is in JSON format and is shown in the bottom right corner.", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_outline.png", "rc": 0, "wall_s": 0.56, "raw": "The text in the image is: \"跳过\" (Skip) and \"关闭\" (Close). The bounding box in JSON is: {\"bbox_2d\": [x1, y1, x2, y2]}", "timing": ""}
+{"model": "smolvlm2-256m", "image": "bc_pill.png", "rc": 0, "wall_s": 0.53, "raw": "The text in the image is: '跳过' (Skip) and '关闭' (Close). The bounding box is: {\"bbox_2d\": [x1, y1, x2, y2]}", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tl_ring.png", "rc": 0, "wall_s": 0.6, "raw": "The text in the image is: \"深度学习跳过\" (Deep learning skip) and \"深度学习跳过\" (Deep learning skip). The bounding box in JSON is: {\"bbox_2d\": [x1", "timing": ""}
+{"model": "smolvlm2-256m", "image": "br_bare.png", "rc": 0, "wall_s": 0.62, "raw": "The text in the image is in Chinese and translates to: 'The new smartphone has a 2D camera and a 3D camera. It can capture images and videos with a 2D camera and a 3D camera.' The bounding box in JSON is: {\"bbox_2d\": [x1", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_wifi.png", "rc": 0, "wall_s": 0.57, "raw": "The text in the screenshot is \"跳过\" (Skip) and \"关闭\" (Close). The bounding box is shown as \"跳过\" (Skip) and \"关闭\" (Close). The text is in Chinese.", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_pill_5_alt.png", "rc": 0, "wall_s": 0.59, "raw": "The text in the screenshot is: '跳过' (Skip) and '关闭' (Close). The bounding box is: [0, 0, 100, 100] (0, 0, 100, 100)", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_ring_alt.png", "rc": 0, "wall_s": 0.54, "raw": "The text in the image is: \"跳过\" (Skip) and \"关闭\" (Close). The bounding box in JSON is: {\"bbox_2d\": [x1, y1, x2, y2]}", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_tiny_alt.png", "rc": 0, "wall_s": 0.57, "raw": "The text '跳过' (Skip) is displayed in red at the top of the screen. Below it, the text '关闭' (Skip) is shown in red. The bounding box of the app is shown in the bottom right corner of the screen.", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tl_pill_3_alt.png", "rc": 0, "wall_s": 0.55, "raw": "The text in the screenshot is: \"跳过\" (Skip) and \"关闭\" (Close). The bounding box is: {\"bbox_2d\": [x1, y1, x2, y2]}", "timing": ""}
+{"model": "smolvlm2-256m", "image": "tr_ring_num_alt.png", "rc": 0, "wall_s": 0.55, "raw": "The text in the image is: \"跳过\" (Skip) and \"关闭\" (Close). The bounding box is: {\"bbox_2d\": [x1, y1, x2, y2]}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_pill_5.png", "rc": 0, "wall_s": 1.42, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_pill_ad.png", "rc": 0, "wall_s": 0.58, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tl_pill_3.png", "rc": 0, "wall_s": 0.57, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "br_pill.png", "rc": 0, "wall_s": 0.57, "raw": "{\"bbox_2d\": [0, 0, 100, 100]}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_ring.png", "rc": 0, "wall_s": 0.58, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_ring_num.png", "rc": 0, "wall_s": 0.56, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_bare_skip.png", "rc": 0, "wall_s": 0.56, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_seg.png", "rc": 0, "wall_s": 0.54, "raw": "{\"bbox_2d\": [0, 0, 100, 100]}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_tiny.png", "rc": 0, "wall_s": 0.56, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_light.png", "rc": 0, "wall_s": 0.55, "raw": "{\"bbox_2d\": [0, 0, 100, 100]}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_outline.png", "rc": 0, "wall_s": 0.56, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "bc_pill.png", "rc": 0, "wall_s": 0.56, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tl_ring.png", "rc": 0, "wall_s": 0.55, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "br_bare.png", "rc": 0, "wall_s": 0.58, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_wifi.png", "rc": 0, "wall_s": 0.56, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_pill_5_alt.png", "rc": 0, "wall_s": 0.55, "raw": "{\"bbox_2d\": [0, 0, 100, 100]}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_ring_alt.png", "rc": 0, "wall_s": 0.57, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_tiny_alt.png", "rc": 0, "wall_s": 0.56, "raw": "{\"bbox_2d\": [0, 0, 100, 100]}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tl_pill_3_alt.png", "rc": 0, "wall_s": 0.56, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "smolvlm2-500m", "image": "tr_ring_num_alt.png", "rc": 0, "wall_s": 0.56, "raw": "{\n    \"bbox\": [0, 0, 100, 100]\n}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_pill_5.png", "rc": 0, "wall_s": 1.51, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_pill_ad.png", "rc": 0, "wall_s": 0.73, "raw": "```json\n{\"bbox_2d\": [0.0, 0.0, 0.5, 0.5]}\n```", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tl_pill_3.png", "rc": 0, "wall_s": 0.71, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "br_pill.png", "rc": 0, "wall_s": 0.73, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_ring.png", "rc": 0, "wall_s": 0.72, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_ring_num.png", "rc": 0, "wall_s": 0.71, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_bare_skip.png", "rc": 0, "wall_s": 0.72, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_seg.png", "rc": 0, "wall_s": 0.74, "raw": "```json\n{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}\n```", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_tiny.png", "rc": 0, "wall_s": 0.69, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_light.png", "rc": 0, "wall_s": 0.73, "raw": "```json\n{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}\n```", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_outline.png", "rc": 0, "wall_s": 0.71, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "bc_pill.png", "rc": 0, "wall_s": 0.71, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tl_ring.png", "rc": 0, "wall_s": 0.71, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "br_bare.png", "rc": 0, "wall_s": 0.69, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_wifi.png", "rc": 0, "wall_s": 0.7, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.5, 0.5]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_pill_5_alt.png", "rc": 0, "wall_s": 0.72, "raw": "```json\n{\"bbox_2d\": [0.0, 0.0, 0.5, 0.5]}\n```", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_ring_alt.png", "rc": 0, "wall_s": 0.69, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_tiny_alt.png", "rc": 0, "wall_s": 0.69, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tl_pill_3_alt.png", "rc": 0, "wall_s": 0.71, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.99, 0.99]}", "timing": ""}
+{"model": "lfm2-vl-450m", "image": "tr_ring_num_alt.png", "rc": 0, "wall_s": 0.69, "raw": "{\"bbox_2d\": [0.0, 0.0, 0.5, 0.5]}", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_pill_5.png", "rc": 0, "wall_s": 5.24, "raw": "```json\n{\"bbox_2d\": [830, 40, 900, 80]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_pill_ad.png", "rc": 0, "wall_s": 2.91, "raw": "```json\n{\"bbox_2d\": [830, 40, 900, 70]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tl_pill_3.png", "rc": 0, "wall_s": 2.98, "raw": "```json\n{\"bbox_2d\": [100, 50, 200, 100]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "br_pill.png", "rc": 0, "wall_s": 2.97, "raw": "```json\n{\"bbox_2d\": [850, 850, 980, 930]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_ring.png", "rc": 0, "wall_s": 2.93, "raw": "```json\n{\"bbox_2d\": [830, 0, 900, 50]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_ring_num.png", "rc": 0, "wall_s": 3.14, "raw": "```json\n{\"bbox_2d\": [850, 30, 950, 100]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_bare_skip.png", "rc": 0, "wall_s": 3.0, "raw": "```json\n{\"bbox_2d\": [850, 30, 980, 80]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_seg.png", "rc": 0, "wall_s": 2.96, "raw": "```json\n{\"bbox_2d\": [830, 40, 900, 70]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_tiny.png", "rc": 0, "wall_s": 2.98, "raw": "```json\n{\"bbox_2d\": [850, 30, 900, 60]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_light.png", "rc": 0, "wall_s": 2.94, "raw": "```json\n{\"bbox_2d\": [830, 40, 900, 80]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_outline.png", "rc": 0, "wall_s": 2.95, "raw": "```json\n{\"bbox_2d\": [836, 20, 900, 50]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "bc_pill.png", "rc": 0, "wall_s": 3.01, "raw": "```json\n{\"bbox_2d\": [450, 850, 550, 900]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tl_ring.png", "rc": 0, "wall_s": 2.99, "raw": "```json\n{\"bbox_2d\": [100, 50, 200, 150]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "br_bare.png", "rc": 0, "wall_s": 2.97, "raw": "```json\n{\"bbox_2d\": [450, 850, 550, 900]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_wifi.png", "rc": 0, "wall_s": 2.98, "raw": "```json\n{\"bbox_2d\": [830, 50, 900, 80]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_pill_5_alt.png", "rc": 0, "wall_s": 2.96, "raw": "```json\n{\"bbox_2d\": [830, 40, 900, 70]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_ring_alt.png", "rc": 0, "wall_s": 2.95, "raw": "```json\n{\"bbox_2d\": [830, 0, 999, 100]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_tiny_alt.png", "rc": 0, "wall_s": 2.97, "raw": "```json\n{\"bbox_2d\": [850, 20, 900, 50]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tl_pill_3_alt.png", "rc": 0, "wall_s": 2.84, "raw": "```json\n{\"bbox_2d\": [100, 40, 190, 80]}\n```", "timing": ""}
+{"model": "internvl3-2b", "image": "tr_ring_num_alt.png", "rc": 0, "wall_s": 2.9, "raw": "```json\n{\"bbox_2d\": [850, 10, 999, 100]}\n```", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_pill_5.png", "rc": 0, "wall_s": 6.27, "raw": "{\"bbox_2d\": [718, 50, 804, 103]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_pill_ad.png", "rc": 0, "wall_s": 3.06, "raw": "{\"bbox_2d\": [698, 109, 800, 135]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tl_pill_3.png", "rc": 0, "wall_s": 2.83, "raw": "{\"bbox_2d\": [100, 50, 200, 80]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "br_pill.png", "rc": 0, "wall_s": 2.88, "raw": "{\"bbox_2d\": [792, 792, 856, 856]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_ring.png", "rc": 0, "wall_s": 2.88, "raw": "{\"bbox_2d\": [719, 109, 800, 154]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_ring_num.png", "rc": 0, "wall_s": 2.84, "raw": "{\"bbox_2d\": [187, 719, 812, 791]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_bare_skip.png", "rc": 0, "wall_s": 2.81, "raw": "{\"bbox_2d\": [0, 0, 1000, 1000]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_seg.png", "rc": 0, "wall_s": 2.78, "raw": "{\"bbox_2d\": [698, 101, 800, 125]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_tiny.png", "rc": 0, "wall_s": 2.81, "raw": "{\"bbox_2d\": [798, 46, 856, 62]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_light.png", "rc": 0, "wall_s": 2.86, "raw": "{\"bbox_2d\": [698, 101, 800, 125]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_outline.png", "rc": 0, "wall_s": 2.78, "raw": "{\"bbox_2d\": [698, 50, 800, 100]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "bc_pill.png", "rc": 0, "wall_s": 2.76, "raw": "{\"bbox_2d\": [400, 825, 600, 850]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tl_ring.png", "rc": 0, "wall_s": 2.75, "raw": "{\"bbox_2d\": [100, 100, 160, 150]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "br_bare.png", "rc": 0, "wall_s": 2.75, "raw": "{\"bbox_2d\": [698, 82, 800, 94]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_wifi.png", "rc": 0, "wall_s": 2.72, "raw": "{\"bbox_2d\": [781, 46, 859, 82]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_pill_5_alt.png", "rc": 0, "wall_s": 2.7, "raw": "{\"bbox_2d\": [719, 50, 759, 74]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_ring_alt.png", "rc": 0, "wall_s": 2.75, "raw": "{\"bbox_2d\": [719, 109, 800, 154]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_tiny_alt.png", "rc": 0, "wall_s": 2.7, "raw": "{\"bbox_2d\": [854, 46, 900, 60]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tl_pill_3_alt.png", "rc": 0, "wall_s": 2.7, "raw": "{\"bbox_2d\": [100, 50, 200, 80]}", "timing": ""}
+{"model": "qwen2-vl-2b", "image": "tr_ring_num_alt.png", "rc": 0, "wall_s": 2.7, "raw": "{\"bbox_2d\": [187, 720, 812, 790]}", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_pill_5.png", "rc": 0, "wall_s": 9.02, "raw": "```json\n{\n    \"bbox_2d\": [304, 50, 362, 74]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_pill_ad.png", "rc": 0, "wall_s": 3.89, "raw": "```json\n{\n    \"bbox_2d\": [294, 57, 352, 74]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tl_pill_3.png", "rc": 0, "wall_s": 3.77, "raw": "```json\n{\n    \"bbox_2d\": [32, 50, 93, 75]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "br_pill.png", "rc": 0, "wall_s": 3.92, "raw": "```json\n{\n    \"bbox_2d\": [324, 758, 353, 775]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_ring.png", "rc": 0, "wall_s": 3.85, "raw": "```json\n{\n    \"bbox_2d\": [319, 56, 357, 79]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_ring_num.png", "rc": 0, "wall_s": 3.21, "raw": "There are none.", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_bare_skip.png", "rc": 0, "wall_s": 3.85, "raw": "```json\n{\n    \"bbox_2d\": [330, 49, 360, 64]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_seg.png", "rc": 0, "wall_s": 3.82, "raw": "```json\n{\n    \"bbox_2d\": [297, 54, 352, 70]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_tiny.png", "rc": 0, "wall_s": 3.84, "raw": "```json\n{\n    \"bbox_2d\": [338, 44, 366, 60]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_light.png", "rc": 0, "wall_s": 3.85, "raw": "```json\n{\n    \"bbox_2d\": [414, 52, 463, 73]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_outline.png", "rc": 0, "wall_s": 3.94, "raw": "```json\n{\n    \"bbox_2d\": [220, 660, 280, 690]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "bc_pill.png", "rc": 0, "wall_s": 3.86, "raw": "```json\n{\n    \"bbox_2d\": [166, 767, 228, 785]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tl_ring.png", "rc": 0, "wall_s": 3.75, "raw": "```json\n{\n    \"bbox_2d\": [36, 52, 74, 80]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "br_bare.png", "rc": 0, "wall_s": 3.89, "raw": "```json\n{\n    \"bbox_2d\": [316, 766, 355, 779]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_wifi.png", "rc": 0, "wall_s": 3.91, "raw": "```json\n{\n    \"bbox_2d\": [432, 54, 469, 77]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_pill_5_alt.png", "rc": 0, "wall_s": 3.88, "raw": "```json\n{\n    \"bbox_2d\": [418, 52, 464, 70]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_ring_alt.png", "rc": 0, "wall_s": 3.91, "raw": "```json\n{\n    \"bbox_2d\": [319, 54, 357, 79]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_tiny_alt.png", "rc": 0, "wall_s": 3.92, "raw": "```json\n{\n    \"bbox_2d\": [340, 46, 365, 59]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tl_pill_3_alt.png", "rc": 0, "wall_s": 3.76, "raw": "```json\n{\n    \"bbox_2d\": [32, 50, 93, 75]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-q8mm", "image": "tr_ring_num_alt.png", "rc": 0, "wall_s": 3.17, "raw": "There are none.", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_pill_5.png", "rc": 0, "wall_s": 6.02, "raw": "```json\n{\n    \"bbox_2d\": [304, 50, 362, 74]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_pill_ad.png", "rc": 0, "wall_s": 3.98, "raw": "```json\n{\n    \"bbox_2d\": [294, 57, 352, 74]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tl_pill_3.png", "rc": 0, "wall_s": 3.91, "raw": "```json\n{\n    \"bbox_2d\": [32, 50, 93, 75]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "br_pill.png", "rc": 0, "wall_s": 4.02, "raw": "```json\n{\n    \"bbox_2d\": [324, 758, 353, 775]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_ring.png", "rc": 0, "wall_s": 4.46, "raw": "```json\n{\n    \"bbox_2d\": [319, 54, 357, 79]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_ring_num.png", "rc": 0, "wall_s": 3.8, "raw": "There are none.", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_bare_skip.png", "rc": 0, "wall_s": 4.62, "raw": "```json\n{\n    \"bbox_2d\": [330, 49, 360, 64]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_seg.png", "rc": 0, "wall_s": 4.73, "raw": "```json\n{\n    \"bbox_2d\": [297, 54, 352, 70]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_tiny.png", "rc": 0, "wall_s": 4.63, "raw": "```json\n{\n    \"bbox_2d\": [338, 44, 366, 60]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_light.png", "rc": 0, "wall_s": 4.57, "raw": "```json\n{\n    \"bbox_2d\": [414, 52, 463, 73]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_outline.png", "rc": 0, "wall_s": 4.65, "raw": "```json\n{\n    \"bbox_2d\": [210, 50, 250, 73]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "bc_pill.png", "rc": 0, "wall_s": 4.63, "raw": "```json\n{\n    \"bbox_2d\": [166, 767, 228, 785]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tl_ring.png", "rc": 0, "wall_s": 4.49, "raw": "```json\n{\n    \"bbox_2d\": [36, 52, 74, 80]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "br_bare.png", "rc": 0, "wall_s": 4.52, "raw": "```json\n{\n    \"bbox_2d\": [316, 766, 355, 779]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_wifi.png", "rc": 0, "wall_s": 4.62, "raw": "```json\n{\n    \"bbox_2d\": [432, 54, 469, 76]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_pill_5_alt.png", "rc": 0, "wall_s": 4.51, "raw": "```json\n{\n    \"bbox_2d\": [418, 52, 464, 70]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_ring_alt.png", "rc": 0, "wall_s": 4.55, "raw": "```json\n{\n    \"bbox_2d\": [319, 54, 357, 79]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_tiny_alt.png", "rc": 0, "wall_s": 4.55, "raw": "```json\n{\n    \"bbox_2d\": [340, 46, 365, 59]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tl_pill_3_alt.png", "rc": 0, "wall_s": 4.51, "raw": "```json\n{\n    \"bbox_2d\": [32, 50, 93, 75]\n}\n```", "timing": ""}
+{"model": "qwen25-vl-3b-f16mm", "image": "tr_ring_num_alt.png", "rc": 0, "wall_s": 3.86, "raw": "There are none.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_pill_5.png", "rc": 0, "wall_s": 15.28, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.88, 0.02, 0.99, 0.08]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_pill_ad.png", "rc": 0, "wall_s": 6.81, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.82, 0.92, 0.96, 0.96]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tl_pill_3.png", "rc": 0, "wall_s": 6.86, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.12, 0.03, 0.18, 0.08]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "br_pill.png", "rc": 0, "wall_s": 6.89, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.79, 0.82, 0.91, 0.91]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_ring.png", "rc": 0, "wall_s": 6.69, "raw": "The bounding box for the skip button is {\"bbox_2d\": [0.83, 0.02, 0.95, 0.14]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_ring_num.png", "rc": 0, "wall_s": 6.86, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.85, 0.92, 0.99, 0.99]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_bare_skip.png", "rc": 0, "wall_s": 6.52, "raw": "The bounding box for the skip button is {\"bbox_2d\": [0.88, 0.92, 0.99, 1.00]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_seg.png", "rc": 0, "wall_s": 7.03, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.88, 0.92, 0.99, 0.99]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_tiny.png", "rc": 0, "wall_s": 6.93, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.88, 0.02, 0.94, 0.08]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_light.png", "rc": 0, "wall_s": 6.9, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.82, 0.92, 0.96, 0.96]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_outline.png", "rc": 0, "wall_s": 7.09, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.62, 0.82, 0.72, 0.92]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "bc_pill.png", "rc": 0, "wall_s": 7.0, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.52, 0.81, 0.66, 0.91]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tl_ring.png", "rc": 0, "wall_s": 6.64, "raw": "The bounding box for the skip button is {\"bbox_2d\": [0.0, 0.08, 0.12, 0.12]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "br_bare.png", "rc": 0, "wall_s": 7.19, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.69, 0.87, 0.82, 0.91]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_wifi.png", "rc": 0, "wall_s": 6.8, "raw": "The bounding box for the skip button is {\"bbox_2d\": [0.88, 0.02, 0.99, 0.12]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_pill_5_alt.png", "rc": 0, "wall_s": 7.11, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.85, 0.02, 0.95, 0.08]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_ring_alt.png", "rc": 0, "wall_s": 6.76, "raw": "The bounding box for the skip button is {\"bbox_2d\": [0.85, 0.02, 0.99, 0.12]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_tiny_alt.png", "rc": 0, "wall_s": 7.15, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.88, 0.92, 0.99, 0.99]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tl_pill_3_alt.png", "rc": 0, "wall_s": 7.07, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.0, 0.08, 0.12, 0.12]}.", "timing": ""}
+{"model": "minicpm-v26", "image": "tr_ring_num_alt.png", "rc": 0, "wall_s": 7.03, "raw": "The bounding box for the button used to skip or close the ad is {\"bbox_2d\": [0.85, 0.92, 0.99, 0.99]}.", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_pill_5.png", "rc": 0, "wall_s": 3.61, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_pill_ad.png", "rc": 0, "wall_s": 2.11, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tl_pill_3.png", "rc": 0, "wall_s": 2.11, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "br_pill.png", "rc": 0, "wall_s": 2.14, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_ring.png", "rc": 0, "wall_s": 2.09, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_ring_num.png", "rc": 0, "wall_s": 2.06, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_bare_skip.png", "rc": 0, "wall_s": 2.06, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_seg.png", "rc": 0, "wall_s": 2.09, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_tiny.png", "rc": 0, "wall_s": 2.13, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_light.png", "rc": 0, "wall_s": 2.09, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_outline.png", "rc": 0, "wall_s": 2.1, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "bc_pill.png", "rc": 0, "wall_s": 2.16, "raw": "```json\n{\"bbox_2d\": [400, 200, 600, 400]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tl_ring.png", "rc": 0, "wall_s": 2.13, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "br_bare.png", "rc": 0, "wall_s": 2.11, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_wifi.png", "rc": 0, "wall_s": 2.11, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_pill_5_alt.png", "rc": 0, "wall_s": 2.16, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_ring_alt.png", "rc": 0, "wall_s": 2.13, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_tiny_alt.png", "rc": 0, "wall_s": 2.12, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tl_pill_3_alt.png", "rc": 0, "wall_s": 2.13, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
+{"model": "internvl3-1b", "image": "tr_ring_num_alt.png", "rc": 0, "wall_s": 2.11, "raw": "```json\n{\"bbox_2d\": [0, 0, 1000, 1000]}\n```", "timing": ""}
