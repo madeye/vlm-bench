@@ -3,11 +3,20 @@ models/
 yolo-venv/
 ggml-yolo/out/
 yolo_data/images/
+yolo_data/labels/
 runs/
+real_shots/raw/
+
+# Local train / export logs
+yolo_train*.log
+bench_pass*.log
+*_export.log
+download.log
 
 # Python
 __pycache__/
 *.pyc
+.venv/
 
 # macOS
 .DS_Store
