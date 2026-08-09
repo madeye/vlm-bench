@@ -10,6 +10,8 @@ hf() { echo "https://huggingface.co/$1/resolve/main/$2"; }
 # repo|file pairs
 FILES=(
   "ggml-org/SmolVLM2-500M-Video-Instruct-GGUF|SmolVLM2-500M-Video-Instruct-Q8_0.gguf"
+  "ggml-org/InternVL3-1B-Instruct-GGUF|InternVL3-1B-Instruct-Q8_0.gguf"
+  "ggml-org/InternVL3-1B-Instruct-GGUF|mmproj-InternVL3-1B-Instruct-Q8_0.gguf"
   "ggml-org/SmolVLM2-500M-Video-Instruct-GGUF|mmproj-SmolVLM2-500M-Video-Instruct-Q8_0.gguf"
   "ggml-org/LFM2-VL-450M-GGUF|LFM2-VL-450M-Q8_0.gguf"
   "ggml-org/LFM2-VL-450M-GGUF|mmproj-LFM2-VL-450M-Q8_0.gguf"
@@ -44,5 +46,16 @@ for f in "${FILES[@]}"; do
   (( ++i % 3 == 0 )) && wait
 done
 wait
+
+# YOLO base weights for auto-labelling / fine-tuning (repo root)
+YOLO_PT="$(dirname "$0")/yolo11n.pt"
+if [[ ! -f "$YOLO_PT" ]]; then
+  curl -sSL -C - --retry 3 -o "$YOLO_PT" \
+    "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt" \
+    && echo "OK yolo11n.pt" || echo "FAIL yolo11n.pt"
+else
+  echo "SKIP yolo11n.pt"
+fi
+
 echo "ALL DONE"
 ls -lh "$DIR"

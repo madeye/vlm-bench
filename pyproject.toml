@@ -1,0 +1,20 @@
+[project]
+name = "vlm-bench"
+version = "0.1.0"
+description = "Benchmark suite for VLM-based ad-skip button grounding (llama.cpp GGUF candidates + YOLO baseline)"
+readme = "REPORT.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gguf",
+    "numpy",
+    "onnx",
+    "onnxruntime",
+    "pillow",
+    "ultralytics",
+]
+
+[dependency-groups]
+# Extras used by ggml-yolo conversion/export tooling
+convert = [
+    "onnxsim",
+]

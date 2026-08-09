@@ -118,3 +118,22 @@ Final app architecture (branch feature/internvl3-2b-default):
 L1 node match -> L2 OCR -> L3a bundled YOLO (10MB, default) -> L3b downloaded
 VLM (InternVL3-2B recommended) as fallback, with image-layer detection gated
 to the first 8s of an app session.
+
+## Addendum: skip_v3b with real Douban/Hupu shots (2026-08-09)
+
+Captured ~70 real UI frames from a connected phone (豆瓣 `com.douban.frodo`,
+虎扑 `com.hupu.games`) via `capture_real_shots.py` → `real_shots/raw/`.
+Imported as hard negatives (+ labeled the 2 splash positives) with
+`import_real_shots.py`, then oversampled the positives 40× each.
+
+| Model | Synthetic testset | Real splash pos | Real UI FP (68) | Weights |
+|-------|-------------------|-----------------|-----------------|---------|
+| skip_v2 | 18/20 | 0/2 | 0 | `.../skip_v2/weights/best.pt` |
+| skip_v3 last | 18/20 | 1/2 (hupu only) | 0 | `.../skip_v3/weights/last.pt` |
+| **skip_v3b** | **19/20** | **2/2** (conf ~0.88–0.92) | **0** | `runs/detect/yolo_runs/skip_v3b/weights/best.pt` |
+
+- Train: 25 epochs, MPS, from skip_v2, 3164 train images (incl. 384 real augs
+  + 80 oversampled real positives). Val mAP50 0.993 / mAP50-95 0.903.
+- Preferred checkpoint for the app L3a path: **skip_v3b best.pt**.
+- Still only 2 real splash positives; collect more cold-launch splash ads to
+  harden recall further.
